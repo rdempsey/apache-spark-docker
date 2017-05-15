@@ -1,0 +1,6 @@
+version: '2'
+services:
+    spark_1:
+      build:
+        context: .
+      restart: "on-failure: 3"
